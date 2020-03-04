@@ -1,6 +1,6 @@
 # AWS SSM SSH ProxyCommand
 
-A script to
+Easy SSH sessions over SSM
 
   - Install & configure prerequisites for itself with as little user interaction as possible
   - Be used as an [SSH ProxyCommand](https://man.openbsd.org/ssh_config.5#ProxyCommand), in order to easily SSH to an EC2 Instance (via SSM)
