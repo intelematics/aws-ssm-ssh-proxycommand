@@ -10,7 +10,7 @@
 # First run your eye over this script to check for malicious code
 # Then run this script without arguments to automatically perform all install steps on your client:
 #
-#   curl -s 'https://raw.githubusercontent.com/intelematics/infra-utils/master/aws/aws-ssm-ec2-proxy-command.sh?token=AAI4XFMHK5WPJ5FXFTT7U226KXB6M' | bash
+#   curl -s 'https://raw.githubusercontent.com/intelematics/aws-ssm-ssh-proxycommand/master/aws-ssm-ssh-proxycommand.sh' | bash
 #
 # It will:
 #
@@ -67,7 +67,7 @@ DEFAULT_SSH_PUBLIC_KEY_PATHS="${HOME}/.ssh/id_rsa.pub ${HOME}/.ssh/id_ed25519.pu
 SSH_PUBLIC_KEY_TIMEOUT=5
 SSH_USER_DEFAULT=ec2-user
 SSH_PORT_DEFAULT=22
-THIS_SCRIPT_URL="https://raw.githubusercontent.com/intelematics/infra-utils/master/aws/aws-ssm-ec2-proxy-command.sh?token=AAI4XFL3MXRBWJLBCGJV5YC6KXQCG"
+THIS_SCRIPT_URL="https://raw.githubusercontent.com/intelematics/aws-ssm-ssh-proxycommand/master/aws-ssm-ssh-proxycommand.sh"
 
 # Convnience feature to enable just "ssh jumpbox" (instead of instance id)
 # We then find the first ec2 instance with name tag = "jumpbox"

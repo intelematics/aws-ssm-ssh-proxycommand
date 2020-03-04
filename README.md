@@ -19,7 +19,7 @@ Should work for Windows (with WSL), OSX & Linux clients
 
 After you have briefly reviewed the script for malicious code, execute it like so:
 
-`curl -s 'https://raw.githubusercontent.com/intelematics/infra-utils/master/aws/aws-ssm-ec2-proxy-command.sh?token=AAI4XFIE6EUNRK26I4I5QT26JJA5Y' | bash`
+`curl -s 'https://raw.githubusercontent.com/intelematics/aws-ssm-ssh-proxycommand/master/aws-ssm-ssh-proxycommand.sh' | bash`
 
 # Usage
 
