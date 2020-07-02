@@ -64,7 +64,7 @@
 ################################################################################
 
 DEFAULT_SSH_PUBLIC_KEY_PATHS="${HOME}/.ssh/id_rsa.pub ${HOME}/.ssh/id_ed25519.pub"
-SSH_PUBLIC_KEY_TIMEOUT=5
+SSH_PUBLIC_KEY_TIMEOUT=20
 SSH_USER_DEFAULT=ec2-user
 SSH_PORT_DEFAULT=22
 THIS_SCRIPT_URL="https://raw.githubusercontent.com/intelematics/aws-ssm-ssh-proxycommand/master/aws-ssm-ssh-proxycommand.sh"
